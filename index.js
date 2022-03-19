@@ -16,7 +16,6 @@ client.on('messageCreate', (message) => {
   console.log(message.content);
   message.react('😋');
   message.react('📙');
-  message.reply('HEEEllooo');
 });
 
 client.on('typingStart', (props) => {
